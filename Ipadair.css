@@ -1,0 +1,570 @@
+/* GIAO DIỆN MÁY TÍNH BẢNG ( TABLET )*/
+
+@media only screen and (min-width:767px) and (max-width:991px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    /* -----------CHỈNH SỬA PHẦN Header --------------*/
+    /*------------------------------------------------------------ KHOẢNG CÁCH , CHIỀU RỘNG CỦA MENU */
+    #img {
+        width: 100%;
+        height: 48rem !important;
+    }
+    /*------------------------------------------------------------ kích thước tiêu đề head và text */
+    .headermax h1 {
+        font-size: 60px;
+    }
+    .headermax p {
+        font-size: 29px !important;
+    }
+    /* ----------------------------------------------------------chiều rộng và khoảng cách MENU */
+    .navbar {
+        width: 100%;
+        margin-top: -0.5rem;
+    }
+    /* ------------------------------------------------------------kích thước icon MENU */
+    .navbar i {
+        font-size: 17px;
+        color: #4dabf7;
+    }
+    /*-------------------------------------------------------------- chiều rộng danh sách ul */
+    .navbar ul {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        padding-left: 0 !important;
+    }
+    .fistlist {
+        margin-right: 12%;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+    /*------------------------------------------------------------- chiều rộng mỗi ô trong Menu */
+    .navbar li {
+        width: 25%;
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        line-height: 2;
+        border: 1px solid #e9ecef;
+        border-top: none;
+        border-bottom: none;
+        font-weight: 400;
+    }
+    /* -----------CHỈNH SỬA PHẦN Body Project ----------------*/
+    /*----------------------------------------- kích thước tiêu đề và p chung */
+    h2 {
+        font-size: 30px !important;
+    }
+    p {
+        font-size: 20px !important;
+        font-weight: 300;
+    }
+    /*----------------------------------------- chiều rộng của hộp mẹ chứa hai mục "MỤC TIÊU NGHỀ NGHIỆP" và "THÔNG TIN CÁ NHÂN" */
+    .row {
+        width: 100%;
+        margin-left: 0 !important;
+        height: 37rem;
+    }
+    .row h2 {
+        margin-bottom: 2rem;
+    }
+    /* chỉnh sửa độ rộng và khoảng cách ban đầu của container bootstrap  */
+    .container {
+        max-width: 100% !important;
+        margin-top: -0.5rem;
+    }
+    .container {
+        padding: 0 !important;
+    }
+    /* chiều rộng nội dung của mục "MỤC TIÊU NGHỀ NGHIỆP" */
+    .widthbox {
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 6rem;
+    }
+    /* khoảng cách hộp nội dung "THÔNG TIN CÁ NHÂN" */
+    .leftbo {
+        width: 82%;
+        margin: 0 auto;
+        padding-top: 6rem;
+    }
+    #colmin-box-1 {
+        background-color: #f1f3f5;
+    }
+    #colmin-box-2 {
+        background-color: #dee2e6;
+    }
+    /* khoảng cách của danh sách ul mục "thông tin cá nhân" */
+    #colmin-box-2 ul {
+        list-style: none;
+        margin-left: -9%;
+        font-size: 20px;
+    }
+    /* khoảng cách li của mục "thông tin cá nhân" */
+    #colmin-box-2 li {
+        line-height: 2;
+        font-weight: 300;
+    }
+    .boldlist {
+        font-weight: 400;
+    }
+    /* khoảng cách mục icon của "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+    .flexcol--icon {
+        margin-left: -3%;
+        margin-top: 1.5rem;
+        color: #4dabf7;
+    }
+    .flexcol--icon i {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    .boxcol h2 {
+        margin-bottom: 3.3rem;
+    }
+    .text-layout1,
+    .text-layout2,
+    .text-layout3,
+    .text-layout4,
+    .text-layout5,
+    .text-layout6 {
+        border: 1px solid #dee2e6;
+    }
+    /* bố cục grid phần "thông tin năng lực cá nhân" */
+    .boxgrid {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 1rem;
+    }
+    /* khoảng cách hộp mẹ phần "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+    .section {
+        width: 95%;
+        margin: 0 auto;
+        padding-left: 7%;
+        margin-top: 1rem;
+    }
+    /* khoảng nội dung của mỗi cột */
+    .column {
+        padding: 2rem;
+        margin-top: 4rem;
+    }
+    .headtext i {
+        font-size: 50px;
+        color: #e9ecef;
+    }
+    .headtext {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    /* khoảng cách nội dung vs tiêu đề "KINH NGHIỆM" */
+    .flexbox {
+        margin-top: 2rem;
+    }
+    .fist-text {
+        font-weight: 400;
+    }
+    .boldbox {
+        font-size: 19px;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-bottom: 0.1rem;
+        color: #fff;
+        font-style: italic;
+        border-radius: 30px;
+        background-color: #4dabf7;
+    }
+    .fist-text {
+        margin-bottom: 0;
+    }
+    .flexbox {
+        display: flex;
+        gap: 1rem;
+    }
+    .empty-column {
+        width: 24.5%;
+        height: 10%;
+        transform: scaleY(0.4);
+        background-color: #4dabf7;
+        border-radius: 50%;
+        font-size: 21px;
+        position: relative;
+        top: 0rem;
+    }
+    .empty-column1 {
+        width: 6%;
+        height: 10%;
+        transform: scaleY(0.4);
+        background-color: #4dabf7;
+        border-radius: 50%;
+        font-size: 21px;
+        position: relative;
+        left: -14%;
+        top: 2rem;
+    }
+    .flexbox2 {
+        margin-top: 2rem;
+    }
+    .empty-column2 {
+        width: 6%;
+        height: 10%;
+        transform: scaleY(0.4);
+        background-color: #4dabf7;
+        border-radius: 50%;
+        font-size: 21px;
+        position: relative;
+        left: -14%;
+        top: 2rem;
+    }
+    .flexbox3 {
+        padding-left: 13%;
+        margin-top: 2rem;
+    }
+    .empty-column3 {
+        width: 6%;
+        height: 10%;
+        transform: scaleY(0.4);
+        background-color: #4dabf7;
+        border-radius: 50%;
+        font-size: 21px;
+        position: relative;
+        left: -14%;
+        top: 2rem;
+    }
+    .flexbox4 {
+        padding-left: 13%;
+    }
+    .empty-column4 {
+        width: 6%;
+        height: 10%;
+        transform: scaleY(0.4);
+        background-color: #4dabf7;
+        border-radius: 50%;
+        font-size: 21px;
+        position: relative;
+        left: -14%;
+        top: 2rem;
+    }
+    .bormobie {
+        margin-top: 4rem;
+    }
+    .bar {
+        border: 1px solid #f1f3f5;
+        width: 21%;
+        height: 0.2rem;
+    }
+    .maxbar-bo {
+        display: flex;
+        gap: 5%;
+        margin-top: -5%;
+    }
+    .bomin {
+        margin-bottom: 2rem;
+    }
+    .bar-blue {
+        background-color: #4dabf7;
+    }
+    .language {
+        margin-top: 3rem;
+    }
+    .tex1-icon {
+        width: 93%;
+        height: 5rem;
+        border: 1px solid #4dabf7;
+        border-radius: 50%;
+        border: none;
+        background-color: #4dabf7;
+    }
+    .tex1-icon i {
+        font-size: 42px;
+        padding-top: 1.1rem;
+        padding-left: 34%;
+    }
+    .tex1-icon p {
+        position: relative;
+        top: 1.7rem;
+        left: -1%;
+    }
+    .text2-icon {
+        width: 93%;
+        height: 5rem;
+        border: 1px solid #4dabf7;
+        border-radius: 50%;
+        border: none;
+        background-color: #4dabf7;
+    }
+    .text2-icon p {
+        width: 6rem;
+        position: relative;
+        top: 1.7rem;
+        left: -6%;
+    }
+    .text2-icon i {
+        font-size: 42px;
+        padding-top: 1.1rem;
+        padding-left: 32%;
+    }
+    .icsize {
+        width: 93%;
+        height: 5rem;
+        border: 1px solid #4dabf7;
+        border-radius: 50%;
+        border: none;
+        background-color: #4dabf7;
+    }
+    .icsize i {
+        font-size: 42px;
+        padding-top: 1.1rem;
+        margin-left: 0.7rem;
+    }
+    .icsize p {
+        position: relative;
+        top: 1.7rem;
+        left: 12%;
+    }
+    .lasticon--min {
+        width: 93%;
+        height: 5rem;
+        border: 1px solid #4dabf7;
+        border-radius: 50%;
+        border: none;
+        background-color: #4dabf7;
+    }
+    .lasticon--min i {
+        font-size: 42px;
+        padding-top: 1.1rem;
+        margin-left: 0.9rem;
+    }
+    .lasticon--min p {
+        position: relative;
+        top: 1.7rem;
+        left: 12%;
+    }
+    #iconbo {
+        display: grid;
+        grid-template-columns: 35% 35%;
+        row-gap: 5rem;
+        column-gap: 3rem;
+        padding-top: 3rem;
+    }
+    #iconbo i {
+        color: #fff;
+    }
+    .text-layout1 {
+        height: 74rem;
+    }
+    .text-layout2 {
+        height: 44rem;
+    }
+    .educationcolumn-distance {
+        margin-top: -30rem;
+        height: 35rem;
+    }
+    .text-layout4 {
+        height: 48rem;
+    }
+    .text-layout5 {
+        height: 26rem;
+    }
+    .text-layout6 {
+        margin-top: -43rem;
+        height: 36rem;
+    }
+    .section-post {
+        background-color: #e9ecef;
+        height: 66rem;
+    }
+    .postbox {
+        padding: 3rem;
+        padding-top: 9rem;
+        margin-top: 2rem;
+    }
+    .postbox h2 {
+        margin-bottom: 4rem;
+    }
+    .columimg-fist {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+    .columimg-even {
+        border-left: 1px solid #ffa94d;
+        height: 20rem;
+    }
+    .img1 img {
+        width: 96%;
+        height: 9rem;
+    }
+    .nth--image {
+        margin-top: 0.1rem;
+        padding-left: 5%;
+    }
+    .columimg-fist .topbox {
+        border-top: 1px solid #ffa94d;
+        width: 100%;
+        grid-column: 1 / span 2;
+        margin-top: 4rem;
+    }
+    .columimg-last {
+        margin-top: 4rem;
+    }
+    .columimg-last img {
+        width: 48%;
+    }
+    .boldtext-pot {
+        font-weight: 500;
+    }
+    .certificate {
+        margin-top: 3rem;
+    }
+    .postbox-1 {
+        padding: 3rem;
+        margin-top: 5rem;
+    }
+    .maxitem {
+        margin-top: 6rem;
+    }
+    .itemcoln-1 img {
+        width: 100%;
+    }
+    .potimage {
+        border: 1px solid #dee2e6;
+    }
+    .head-box1 p {
+        font-weight: 500;
+        font-size: 26px !important;
+        padding: 1rem;
+    }
+    .boxlast-pot1,
+    .boxlast-pot2,
+    .boxlast-pot3 {
+        border-bottom: 1px solid #ced4da;
+    }
+    .number {
+        border-radius: 20px;
+        background-color: #4dabf7;
+        width: 11%;
+        height: 1.9rem;
+    }
+    .numbersize {
+        padding-left: 22%;
+        color: #fff;
+    }
+    .boxlast-pot2 {
+        padding: 1rem;
+        display: flex;
+        gap: 3rem;
+        height: 4rem;
+    }
+    .icon {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    .icon i {
+        font-size: 25px;
+        color: #adb5bd;
+    }
+    /* @keyframes my {
+        0% {
+            color: #F8CD0A;
+        }
+        50% {
+            color: #fff;
+        }
+        100% {
+            color: #F8CD0A;
+        }
+    }
+    .icon i {
+        animation: my 900ms infinite;
+        -moz-animation: my 900ms infinite;
+    } */
+    .iconmax-box {
+        display: flex;
+        gap: 2rem;
+    }
+    .boxlast-pot3 {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 22% 1fr;
+        gap: 1rem;
+    }
+    .itemcoln-1 {
+        padding-bottom: 4rem;
+    }
+    .itemcoln {
+        padding-bottom: 4rem;
+    }
+    .nonebor {
+        border-bottom: none;
+    }
+    .cv--information {
+        height: 30rem;
+    }
+    .boxtem {
+        height: 32rem;
+    }
+    .final-column {
+        height: 30rem;
+    }
+    .minicon i {
+        font-size: 42px;
+        color: #4dabf7;
+    }
+    .minicon p {
+        margin-top: 0.5rem;
+    }
+    #minicon {
+        background-color: #4dabf7;
+        border-radius: 50%;
+        width: 6.2%;
+        transform: scaleY(0.8);
+        margin-left: -8%;
+        margin-top: -0.3rem;
+    }
+    #minicon i {
+        font-size: 29px;
+        padding-left: 26%;
+        padding-top: 0.8rem;
+    }
+    #minicon p {
+        font-size: 23px !important;
+        padding-left: 15%;
+    }
+    .minicon {
+        display: flex;
+        gap: 1rem;
+    }
+    .layouticon {
+        display: flex;
+        gap: 9rem;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+    .iconaside {
+        background-color: #e9ecef;
+        height: 11rem;
+        margin-top: -4rem;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .empty-column {
+        width: 13.5%;
+        height: 10%;
+        transform: scaleY(0.4);
+        background-color: #4dabf7;
+        border-radius: 50%;
+        font-size: 21px;
+        position: relative;
+        top: 0rem;
+    }
+}

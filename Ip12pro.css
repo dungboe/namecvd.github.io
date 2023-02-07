@@ -1,0 +1,1283 @@
+        @media only screen and (max-width:767px)
+        /* (Iphone 12 pro --- thích ứng với khoảng chiều rộng từ 766px đến 390px ) */
+        
+        {
+            body {
+                width: 100%;
+                overflow-x: hidden;
+                background-color: #ff6b6b;
+            }
+            /*------------------ KÍCH THƯỚC TIÊU ĐỀ VÀ TEXT chung */
+            h2 {
+                font-size: 46px !important;
+            }
+            p {
+                font-size: 21px !important;
+                font-weight: 300;
+            }
+            /*-- CHỈNH SỬA PHẦN HEADER-- */
+            /* -----------------------------------KÍCH THƯỚC TIÊU ĐỀ VÀ TEXT CỦA HEADER */
+            .headermax h1 {
+                font-size: 80px;
+            }
+            .headermax p {
+                font-size: 30px !important;
+            }
+            /*------------------------------------ chiều rộng và chiều cao của ảnh */
+            #img {
+                width: 100%;
+                height: 170vh !important;
+            }
+            /* -----------------------------------chiều rộng và khoảng cách bên trái của mục MENU */
+            .navbar {
+                width: 100%;
+                /* margin-left: 14rem; */
+            }
+            .navbar a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+            .lf-lik {
+                margin-left: 0.4rem;
+            }
+            /*----------------------------------- BỐ CỤC CỘT CHO MENU */
+            .navbar ul {
+                display: block;
+                padding: 2%;
+                list-style: none;
+                width: 100%;
+            }
+            .navbar li {
+                border: none;
+                font-size: 21px;
+                width: 100%;
+                line-height: 3;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+            .navbar i {
+                margin-left: 7rem;
+                font-size: 1.5rem !important;
+                color: #339af0;
+            }
+            /* -----------------------------------tạo bố cục CỘT cho mục ("Mục tiêu nghề nghiệp" và "Thông tin cá nhân") */
+            .row {
+                width: 100%;
+                flex-direction: column;
+                margin-left: 0 !important;
+                padding-bottom: 44rem;
+            }
+            /* xóa bỏ khoảng cách viền hai hai bên của hộp mẹ chứa mục "mục tiêu" và "thông tin cá nhân" */
+            .container {
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            /*------------------------------------- kích thước chữ của cột "MỤC TIÊU NGHỀ NGHIỆP" */
+            .widthbox h2 {
+                margin-bottom: 4rem;
+            }
+            /*-------------------------------------- chiều cao của cột "MỤC TIÊU NGHỀ NGHIỆP" */
+            #colmin-box-1 {
+                height: 33rem;
+                width: 100%;
+                background-color: #e9ecef;
+            }
+            #colmin-box-2 {
+                height: 43rem;
+                width: 100%;
+                background-color: #dee2e6;
+            }
+            .widthbox {
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 11rem;
+            }
+            /*-------------------------------------- chiều rộng của nội dung "thông tin cá nhân" */
+            .leftbo {
+                margin: 0 auto;
+                width: 80%;
+                /* height: 161rem; */
+            }
+            /*-------------------------------------- KÍCH THƯỚC CHỮ CỦA CỘT "THÔNG TIN CÁ NHÂN" */
+            .leftbo h2 {
+                margin-top: 8rem;
+                margin-bottom: 4rem;
+            }
+            .leftbo ul {
+                font-size: 21px;
+                width: 100%;
+                margin-left: -5%;
+                list-style: none;
+            }
+            /*------------------------------------------ khoảng cách giữa các li */
+            .leftbo li {
+                line-height: 2.5;
+            }
+            /* độ đậm nhạt của class="text"  phần "thông tin cá nhân" */
+            .text {
+                font-weight: 300;
+                margin: 1%;
+            }
+            /* --------------------------------------kích thước và khoảng cách các icon mục "THÔNG TIN NGHỀ NGHIỆP" */
+            .flexcol--icon {
+                font-size: 21px;
+                width: 100%;
+                color: #339af0;
+            }
+            /* khoảng cách viền trên hộp mẹ "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+            .section {
+                margin-top: -89%;
+            }
+            /* ---------------------------------------bố cục cột cho phần "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+            .boxgrid {
+                display: block;
+                width: 98%;
+                margin: 0 auto;
+            }
+            .headtext {
+                display: flex;
+                align-items: center;
+                gap: 13rem;
+                width: 74%;
+                justify-content: space-between;
+            }
+            /* khoảng cách bên trái chung của phần tiêu đề mục thông tin năng lực cá nhân */
+            .headtext {
+                margin-left: 10%;
+            }
+            /*------------------------------------------- kích thước chấm thứ 1 của cột "KINH NGHIỆM" */
+            .empty-column {
+                width: 3% !important;
+                height: 3%;
+                margin-left: 4.5rem !important;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scale(0.6);
+            }
+            /* -------------------------------------------khoảng cách giữa text thứ 1 và chấm thứ 1 của phần "KINH NGHIỆM" */
+            #box1 {
+                margin-left: 7rem;
+                margin-top: -1.7rem;
+            }
+            /* khoảng cách trên và dưới của dòng "mốc thời gian thứ 1" phần KINH NGHIỆM */
+            .inline-paragrap {
+                margin-top: -0.5rem;
+                margin-bottom: 2rem;
+            }
+            /*--------------------------------------- chỉnh sửa phần "kinh nghiệm" */
+            .text-layout1 {
+                width: 100%;
+                padding-top: 7rem;
+                height: 60rem;
+            }
+            /* kích thước khung nền chữ "HIỆN TẠI" */
+            .boldbox {
+                padding-left: 1rem;
+                padding-right: 1rem;
+                border-radius: 4px;
+                background-color: #339af0;
+            }
+            /*---------------------------------------- khoảng cách viền trên của mục text phần "KINH NGHIỆM" */
+            .flexbox {
+                margin-top: 6rem;
+            }
+            /*--- khoảng cách viền trên của mục thứ 2 phần "KINH NGHIỆM" ---*/
+            .flexbox2 {
+                margin-top: 4rem;
+                margin-left: -6rem;
+            }
+            /*------------------------------------------ kích thước chấm thứ 2 phần "KINH NGHIỆM" */
+            .empty-column1 {
+                width: 3.2% !important;
+                height: 2%;
+                margin-left: 3.5rem !important;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scale(0.6);
+            }
+            /* khoảng cách trên và trái mục "Web-designer-công ty X" */
+            .mincolum {
+                margin-top: -1.7rem;
+                margin-left: 6rem;
+            }
+            /* ----------------------------------------kích thước ICON chung của mục "THÔNG TIN NĂNG LỰC CÁ NHÂN" */
+            .boxgrid i {
+                font-size: 80px;
+                color: #dee2e6;
+            }
+            .text-layout1,
+            .text-layout2,
+            .text-layout3,
+            .text-layout4,
+            .text-layout5,
+            .text-layout6 {
+                border: 1px solid #adb5bd;
+            }
+            /* khoảng cách viền dưới của dòng "FPT Edu Hackathon 2019" */
+            .designer {
+                margin-bottom: 0.5rem !important;
+            }
+            .fist-text {
+                margin-bottom: 0rem;
+                font-weight: 400;
+            }
+            /* ------------------------------------------chiều rộng cột "HOẠT ĐỘNG" */
+            .text-layout2 {
+                width: 100%;
+                padding-top: 8rem;
+                margin-top: 1rem;
+                height: 50rem;
+            }
+            .flexbox3 {
+                margin-top: 6rem;
+            }
+            /*-------------------------------------------- kích thước chấm thứ 2 của "HOẠT ĐỘNG" */
+            .empty-column3 {
+                width: 2.3%;
+                border-radius: 50%;
+                transform: scaleY(0.6);
+                background-color: #339af0;
+                margin-top: -24%;
+            }
+            /* khoảng cách của dòng "câu lạc bộ Z" */
+            .range {
+                margin-left: 2.3rem;
+                margin-top: -1.8rem;
+            }
+            /* ------------------------------------------kích thước chấm thứ 1 của "HOẠT ĐỘNG" và "HỌC VẤN" */
+            .empty-column2 {
+                width: 3.2% !important;
+                height: 2%;
+                margin-left: 4.5rem !important;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scale(0.6);
+            }
+            /* khoảng cách text với chấm thứ 1 của "HOẠT ĐỘNG" */
+            .onecolumn {
+                margin-left: 7.3rem;
+                margin-top: -1.8rem;
+            }
+            /* -------------------------------------------khoảng cách viền trên và viền trái text thứ 2 của mục "HOẠT ĐỘNG" */
+            .flexbox4 {
+                margin-left: 5rem;
+                margin-top: 15rem;
+            }
+            /* ---------------------------------------------chiều rộng cột "HỌC VẤN" */
+            .text-layout4 {
+                width: 100%;
+                margin-top: 1rem;
+                height: 51rem;
+            }
+            .education {
+                margin-top: 8rem;
+            }
+            /* khoảng cách của mục "CỬ NHÂN ĐH FPT" */
+            .flexbox5 {
+                margin-left: 5rem;
+                margin-top: 6rem;
+            }
+            /*------------------------------------------- khoảng cách text với chấm thứ 1 của "HỌC VẤN" */
+            .lt--colun {
+                margin-top: -1.8rem;
+                margin-left: 8rem;
+            }
+            /*------------------------------------------- kích thước chấm thứ 2 của "HỌC VẤN" */
+            .empty-column4 {
+                width: 2%;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scaleY(0.6);
+            }
+            /* khoảng cách của "mục Cử Nhân ĐH FPT" */
+            .toplef--box {
+                margin-top: -1.8rem;
+                margin-left: 3rem;
+            }
+            /*-------------------------------------------- chiều rộng cột "KĨ NĂNG" */
+            .educationcolumn-distance {
+                width: 100%;
+                margin-top: 1rem;
+                height: 45rem;
+            }
+            /* khoảng cách hộp chứa text và thanh border của mục "kĩ năng" */
+            .bomin {
+                margin-left: 5rem;
+                margin-bottom: 1rem;
+            }
+            .bormobie {
+                margin-top: 6rem;
+            }
+            /* kích thước thanh border mục KĨ NĂNG */
+            .bar {
+                transform: scaleY(0.1);
+                width: 6%;
+                background-color: #dee2e6;
+            }
+            .bar-blue {
+                background-color: #339af0;
+            }
+            .maxbar-bo {
+                margin-top: -1rem;
+            }
+            .maxbar-bo {
+                display: flex;
+                gap: 3%;
+            }
+            /*----------------------------------------------- chỉnh sửa cột "NGÔN NGỮ" */
+            .text-layout5 {
+                width: 100%;
+                margin-top: 1rem !important;
+                height: 32rem;
+            }
+            .miniheader {
+                margin-top: 8rem;
+            }
+            .language {
+                margin-top: 3rem;
+                margin-bottom: -2rem;
+            }
+            /* -----------------------------------------------chỉnh sửa cột "SỞ THÍCH" */
+            .text-layout6 {
+                width: 100%;
+                margin-top: 1rem !important;
+                height: 50rem;
+            }
+            #iconbo {
+                display: flex;
+                gap: 5rem;
+            }
+            #iconbo {
+                margin-top: 6rem;
+                margin-left: 5rem;
+            }
+            .flexbomin i {
+                border: 1px solid #4dabf7;
+                padding: 1.1rem;
+                padding-top: 0.7rem;
+                color: #74c0fc;
+            }
+            .flexbomin p {
+                position: relative;
+                top: 3rem;
+            }
+            /*---------------------------------------- kích thước icon */
+            /* ----------------icon âm nhạc------------------- */
+            .tex1-icon i {
+                transform: scale(2.4) !important;
+                border-radius: 50% !important;
+                width: 65% !important;
+                text-align: center !important;
+                height: 49% !important;
+                font-size: 22px;
+                margin-left: 1rem !important;
+            }
+            /*---------------- icon chơi game-------------------- */
+            .text2-icon i {
+                transform: scale(2.5) !important;
+                border-radius: 50% !important;
+                width: 52% !important;
+                text-align: center !important;
+                height: 47% !important;
+                font-size: 22px;
+                margin-left: 1.9rem !important;
+            }
+            /* -----------------icon du lịch----------------------- */
+            .icsize i {
+                transform: scale(2) !important;
+                border-radius: 50% !important;
+                width: 78% !important;
+                text-align: center !important;
+                height: 57% !important;
+                padding-top: 1rem;
+                font-size: 22px;
+                margin-left: 0.8rem;
+            }
+            .icsize {
+                position: relative;
+                top: -0.3rem;
+            }
+            .icsize p {
+                position: relative;
+                top: 2.7rem;
+                left: 0.6rem;
+            }
+            /*------------------- icon nấu ăn ----------------------*/
+            .lasticon--min i {
+                transform: scale(2.1) !important;
+                border-radius: 50% !important;
+                width: 80% !important;
+                text-align: center !important;
+                height: 56% !important;
+                padding-top: 1rem;
+                font-size: 22px;
+                margin-left: 0.8rem;
+            }
+            .lasticon--min {
+                position: relative;
+                top: 14rem;
+                margin-left: -74%;
+            }
+            .lasticon--min p {
+                position: relative;
+                left: 0.5rem;
+            }
+            /* --------------------------------chiều rộng mục "chứng chỉ-giải thưởng"------------------------ */
+            .section-post {
+                width: 100%;
+                margin-top: 2% !important;
+                height: 130rem;
+                background-color: #f1f3f5;
+            }
+            /*--------------------------------- khoảng cách viền trên nội dung "CHỨNG CHỈ-GIẢI THƯỞNG" */
+            .postbox {
+                padding-top: 5rem;
+                width: 90%;
+                margin: 0 auto;
+            }
+            /* ---------------------------------bố cục cột cho nội dung text "CHỨNG CHỈ-GIẢI THƯỞNG" */
+            .columimg-fist {
+                display: flex;
+                flex-direction: column;
+            }
+            .columimg-fist img {
+                width: 100% !important;
+                height: 10%;
+            }
+            .boldtext-pot {
+                font-weight: 400;
+            }
+            /* ------------------------------chiều rộng ảnh cột thứ 1 phần "CHỨNG CHỈ-GIẢI THƯỞNG" */
+            .distanceabove img {
+                margin-top: 9rem;
+            }
+            .columimg-fist p {
+                margin-top: 1rem;
+            }
+            .upperborder-distance {
+                margin-top: 5rem;
+            }
+            /*--------------------------kích thước chữ cột thứ 2 */
+            .secondcolumn-content p {
+                margin-top: 1rem;
+            }
+            /*----------------------------------- chiều rộng thanh border của cột thứ 2 */
+            .columimg-even {
+                border: none;
+                border-top: 1px solid #ff6b6b;
+                width: 100% !important;
+                margin-top: 2rem;
+                /* margin-left: -25rem; */
+            }
+            /*--------------------------------------khoảng cách viền trên và viền dưới nội dung cột thứ 2 */
+            .nth--image {
+                margin-top: 4rem !important;
+            }
+            /*----------------------------------- chiều rộng thanh border của cột thứ 3 */
+            .topbox {
+                border: none;
+                border-top: 1px solid #ff6b6b;
+                width: 100%;
+                margin-top: 2rem;
+            }
+            .topbox .columimg-last {
+                margin-top: 4rem;
+            }
+            /* ///////////////////////////////////////////////////////////////////////////////// */
+            /* -----------------------khoảng cách viền trên của "DỰ ÁN" */
+            .project {
+                margin-top: 6rem;
+            }
+            .postbox-1 {
+                width: 95%;
+                margin: 0 auto;
+            }
+            /*------------------------ khoảng cách viền trên nội dung "DỰ ÁN" */
+            .maxitem {
+                margin-top: 7rem;
+            }
+            /*------------------------------------- bố cục CỘT "DỰ ÁN" */
+            .maxitem {
+                flex-direction: column;
+            }
+            /* -----------------------------------chiều rộng ảnh thứ 1 của cột "DỰ ÁN" */
+            .itemcoln-1 img {
+                width: 100%;
+                height: 10%;
+            }
+            /*------------------------------------ chiều rộng cột text thứ 1 cột "DỰ ÁN" */
+            .cv--information {
+                width: 100%;
+                height: 36rem;
+            }
+            /*------------------------------------- mục CV cá nhân */
+            .personal-cv {
+                padding: 2rem;
+                height: 6rem;
+            }
+            .head-box1 p {
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            /* đường border của 3 cột */
+            .potimage {
+                border: 1px solid #adb5bd;
+            }
+            .boxlast-pot1,
+            .boxlast-pot2,
+            .boxlast-pot3 {
+                border-bottom: 1px solid #868e96;
+            }
+            .nonebor {
+                border-bottom: none;
+            }
+            /*---------------------------------------- kích thước khung số */
+            .number {
+                height: 2.3rem;
+                width: 5.5rem;
+                border-radius: 20px;
+                background-color: #339af0;
+                margin-left: -6%;
+            }
+            /*---------------------------------------- kích thước số của khung số */
+            .numbersize {
+                font-size: 19px !important;
+                padding-left: 1.5rem;
+                padding-top: 0.2rem;
+                margin-top: -3.8rem;
+                color: #fff;
+            }
+            /*---------------------------------------- kích thước icon */
+            .icon i {
+                font-size: 74px;
+            }
+            /* ---------------------------------------chiều cao cột của ô "funix và developer" */
+            .boxlast-pot2 {
+                height: 10rem;
+                margin-top: 5rem;
+                padding-left: 4.5rem;
+            }
+            /* --------------------------------------khoảng cách viền trái và viền trên của mục text cột icon "funix và developer" */
+            .iconmax-box {
+                margin-top: 2rem;
+                margin-left: -6%;
+            }
+            .icon {
+                display: flex;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+            .icon i {
+                font-size: 28px;
+            }
+            /* khoảng cách và bố cục flex của ô "mô tả , nhiệm vụ , công nghệ" */
+            .boxlast-pot3 {
+                width: 100%;
+                margin-top: 1rem;
+            }
+            .boxlast-pot3 {
+                display: flex;
+                gap: 1rem;
+            }
+            /* ----------------------------------------chiều rộng text và khoảng cách phần "nhiệm vụ" */
+            .mission {
+                width: 16rem;
+                margin-left: 2rem;
+            }
+            .lasfit {
+                /* margin-left: 26rem; */
+                width: 100%;
+            }
+            /* phần "mô tả" */
+            .onefist {
+                width: 16rem;
+                margin-left: 2rem;
+            }
+            /* phần "công nghệ" */
+            .technology {
+                width: 16rem;
+                margin-left: 2rem;
+                border-bottom: none;
+            }
+            /*----------------------------------------- chiều rộng ảnh của cột thứ 2 "DỰ ÁN" */
+            .itemcoln img {
+                width: 100%;
+                height: 10%;
+            }
+            /* chiều rộng cột text thứ 2 "DỰ ÁN" */
+            .boxtem {
+                width: 100%;
+                height: 38rem;
+            }
+            /* khoảng cách cột thứ 2 "DỰ ÁN" */
+            #box2 {
+                margin-top: 3rem;
+            }
+            /* khoảng cách cột thứ 3 của "DỰ ÁN" */
+            #box3 {
+                margin-top: 3rem;
+            }
+            /* chiều rộng ảnh của cột thứ 3 */
+            #box3 img {
+                width: 100%;
+                height: 10%;
+            }
+            /* chiều rộng cột text của cột thứ 3 */
+            .final-column {
+                width: 100%;
+                height: 37rem;
+            }
+            /* chiều rộng của mục icon xã hội */
+            .iconaside {
+                width: 100%;
+                background-color: #f8f9fa;
+                margin-top: 2rem;
+            }
+            /* ẩn dòng text của mục icon xã hội */
+            .iconaside p {
+                display: none;
+            }
+            /* chiều cao mục icon xã hội */
+            .layouticon {
+                height: 14rem;
+                margin-left: 16%;
+                padding-top: 1rem;
+            }
+            .layouticon {
+                display: flex;
+                gap: 4rem;
+                align-items: center;
+                justify-content: center;
+                margin-left: -2%;
+            }
+            /* kích thước icon đầu và cuối */
+            .layouticon i {
+                transform: scale(2);
+                font-size: 26px;
+                color: #4dabf7;
+            }
+            /* chỉnh sửa icon ở giữa */
+            #minicon i {
+                padding-left: 25%;
+                padding-top: 24%;
+                font-size: 10px;
+            }
+            /* kích thước vỏ icon ở giữa */
+            #minicon {
+                width: 4.5% !important;
+                height: 17%;
+                transform: scale(1.5);
+                border-radius: 50%;
+                background-color: #4dabf7;
+            }
+            /* .ic--bo2 {
+        margin-left: -10rem;
+    } */
+            .minicon {
+                display: flex;
+                gap: 2rem;
+                align-items: flex-start;
+            }
+        }
+        
+        @media only screen and (max-width:704px) {
+            /* chỉnh sửa icon ở giữa */
+            #minicon i {
+                padding-left: 25%;
+                padding-top: 24%;
+                font-size: 10px;
+            }
+            /* kích thước vỏ icon ở giữa */
+            #minicon {
+                width: 4.8%;
+                height: 17%;
+                transform: scale(1.5);
+                border-radius: 50%;
+                background-color: #4dabf7;
+            }
+        }
+        
+        @media only screen and (max-width:750px) {
+            .section {
+                margin-top: -93% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -1rem;
+            }
+        }
+        
+        @media only screen and (max-width:740px) {
+            .section {
+                margin-top: -93% !important;
+            }
+        }
+        
+        @media only screen and (max-width:732px) {
+            .section {
+                margin-top: -95% !important;
+            }
+            /* chỉnh sửa icon ở giữa */
+            #minicon i {
+                padding-left: 25%;
+                padding-top: 24%;
+                font-size: 10px;
+            }
+            /* kích thước vỏ icon ở giữa */
+            #minicon {
+                width: 5%;
+                height: 17%;
+                transform: scale(1.5);
+                border-radius: 50%;
+                background-color: #4dabf7;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -2rem;
+            }
+        }
+        
+        @media only screen and (max-width:720px) {
+            .section {
+                margin-top: -96% !important;
+            }
+            .icsize {
+                position: relative;
+                top: 14rem;
+                left: -10rem;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -2rem;
+            }
+        }
+        
+        @media only screen and (max-width:712px) {
+            .lasticon--min {
+                position: relative;
+                left: -3rem;
+            }
+        }
+        
+        @media only screen and (max-width:700px) {
+            .lasticon--min {
+                position: relative;
+                left: -3rem;
+            }
+            .section {
+                margin-top: -99% !important;
+            }
+            .headtext {
+                display: grid;
+                grid-template-columns: 60% 40%;
+                gap: 1rem;
+                align-items: center;
+            }
+        }
+        
+        @media only screen and (max-width:660px) {
+            .section {
+                margin-top: -105% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -5rem;
+            }
+            /* chỉnh sửa icon ở giữa */
+            #minicon i {
+                padding-left: 25%;
+                padding-top: 24%;
+                font-size: 10px;
+            }
+            /* kích thước vỏ icon ở giữa */
+            #minicon {
+                width: 5.4% !important;
+                height: 17%;
+                transform: scale(1.5);
+                border-radius: 50%;
+                background-color: #4dabf7;
+            }
+        }
+        
+        @media only screen and (max-width:610px) {
+            .section {
+                margin-top: -114% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -7rem;
+            }
+        }
+        
+        @media only screen and (max-width:600px) {
+            .section {
+                margin-top: -114% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -9rem;
+            }
+            #colmin-box-1 {
+                height: 40rem;
+            }
+            #colmin-box-2 {
+                height: 47rem;
+            }
+        }
+        
+        @media only screen and (max-width:570px) {
+            .section {
+                margin-top: -114% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -9rem;
+            }
+            #colmin-box-1 {
+                height: 40rem;
+            }
+            #colmin-box-2 {
+                height: 47rem;
+            }
+        }
+        
+        @media only screen and (max-width:560px) {
+            .section {
+                margin-top: -124% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -9rem;
+            }
+            #colmin-box-1 {
+                height: 40rem;
+            }
+            #colmin-box-2 {
+                height: 47rem;
+            }
+        }
+        
+        @media only screen and (max-width:543px) {
+            .section {
+                margin-top: -127% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -10rem;
+            }
+            #colmin-box-1 {
+                height: 40rem;
+            }
+            #colmin-box-2 {
+                height: 47rem;
+            }
+        }
+        
+        @media only screen and (max-width:500px) {
+            .section {
+                margin-top: -139% !important;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -12rem;
+            }
+            #colmin-box-1 {
+                height: 40rem;
+            }
+            #colmin-box-2 {
+                height: 47rem;
+            }
+            .section-post {
+                height: 109rem;
+            }
+            /* chỉnh sửa icon ở giữa */
+            #minicon i {
+                padding-left: 25%;
+                padding-top: 24%;
+                font-size: 10px;
+            }
+            /* kích thước vỏ icon ở giữa */
+            #minicon {
+                width: 6.8% !important;
+                height: 17%;
+                transform: scale(1.5);
+                border-radius: 50%;
+                background-color: #4dabf7;
+            }
+        }
+        
+        @media only screen and (max-width:495px) {
+            #colmin-box-1 {
+                height: 45rem;
+            }
+            #colmin-box-2 {
+                height: 51rem;
+            }
+            .text-layout1 {
+                height: 65rem;
+            }
+            .flexbox {
+                margin-left: -5%;
+            }
+            .empty-column {
+                width: 4.6% !important;
+            }
+            .empty-column1 {
+                width: 4.9% !important;
+            }
+            .flexbox3 {
+                margin-left: -5%;
+            }
+            .empty-column2 {
+                width: 4.8% !important;
+            }
+            .flexbox4 {
+                margin-left: 11%;
+                margin-top: 12rem;
+            }
+            .empty-column3 {
+                width: 3.3%;
+            }
+            .empty-column4 {
+                width: 3.5%;
+            }
+            .bormobie {
+                margin-top: 6rem;
+                margin-left: -6%;
+            }
+            .language {
+                margin-left: 10%;
+            }
+            .tex1-icon {
+                position: relative;
+                left: -5%;
+            }
+            .text2-icon {
+                position: relative;
+                top: 0.1rem;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -54%;
+            }
+            .icsize {
+                position: relative;
+                left: -41%;
+                top: 14.2rem;
+            }
+            .cv--information {
+                height: 39rem;
+            }
+            .boxtem {
+                height: 43rem;
+            }
+            .final-column {
+                height: 41rem;
+            }
+        }
+        
+        @media only screen and (max-width:391px)
+        /* (màn Iphone 12 pro)  */
+        
+        {
+            h1 {
+                font-size: 44px !important;
+            }
+            .headermax p {
+                font-size: 25px !important;
+            }
+            .navbar {
+                margin-left: -16%;
+            }
+            h2 {
+                font-size: 29px !important;
+            }
+            #colmin-box-1 {
+                height: 39rem;
+            }
+            #colmin-box-2 {
+                height: 48rem;
+            }
+            /* chiều rộng nội dung của cột "thông tin cá nhân" */
+            .leftbo {
+                width: 90%;
+                margin: 0 auto;
+                padding-top: 1rem;
+            }
+            .leftbo ul {
+                margin-left: -10%;
+                font-size: 21px;
+            }
+            /* chiều rộng nội dung cột "mục tiêu nghề nghiệp" */
+            .widthbox {
+                width: 90%;
+                margin: 0 auto;
+                padding-top: 9rem;
+            }
+            .section {
+                margin-top: -43rem !important;
+            }
+            .headtext {
+                display: grid;
+                grid-template-columns: 60% 40%;
+                gap: 3rem;
+                align-items: flex-end;
+            }
+            .flexbox {
+                margin-left: -9%;
+            }
+            /* khoảng cách viền trái của mục nội dung "KINH NGHIỆM" */
+            .column {
+                margin-left: -5%;
+            }
+            /* mục "kinh nghiệm" của phần "thông tin năng lực cá nhân" */
+            .empty-column {
+                width: 5.8% !important;
+                height: 3%;
+                margin-left: 4.5rem !important;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scale(0.6);
+            }
+            .empty-column1 {
+                width: 6.1% !important;
+                height: 2%;
+                margin-left: 3.5rem !important;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scale(0.6);
+            }
+            .text-layout1 {
+                height: 69rem;
+            }
+            /* mục "Hoạt Động" của phần "thông tin năng lực cá nhân" */
+            .flexbox3 {
+                margin-top: 6rem;
+                margin-left: -9%;
+            }
+            .empty-column2 {
+                width: 5.9% !important;
+                height: 2%;
+                margin-left: 4.5rem !important;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scale(0.6);
+            }
+            .flexbox4 {
+                margin-left: 10%;
+                margin-top: 10rem;
+            }
+            .empty-column3 {
+                width: 4.3%;
+                border-radius: 50%;
+                transform: scaleY(0.6);
+                background-color: #339af0;
+                margin-top: -24%;
+            }
+            .empty-column4 {
+                width: 4.4%;
+                border-radius: 50%;
+                background-color: #339af0;
+                transform: scaleY(0.6);
+            }
+            .text-layout4 {
+                height: 54rem;
+            }
+            .bormobie {
+                margin-top: 6rem;
+                margin-left: -10%;
+            }
+            .bar {
+                transform: scaleY(0.1);
+                width: 10%;
+                background-color: #dee2e6;
+            }
+            .bar-blue {
+                background-color: #339af0;
+            }
+            .educationcolumn-distance {
+                height: 42rem;
+            }
+            .language {
+                margin-top: 4rem;
+                margin-bottom: -3rem;
+                margin-left: 10%;
+            }
+            .tex1-icon i {
+                transform: scale(2.3) !important;
+                border-radius: 50% !important;
+                width: 59% !important;
+                height: 45% !important;
+                font-size: 18px;
+                padding-top: 16.1%;
+                padding-left: 21%;
+                margin-left: -0.5rem !important;
+                border: none;
+                background-color: #4dabf7;
+                color: #fff;
+            }
+            .tex1-icon p {
+                position: relative;
+                left: -32%;
+                display: block;
+                width: 5rem;
+            }
+            .tex1-icon {
+                position: relative;
+                left: 1%;
+            }
+            .text2-icon i {
+                transform: scale(2.5) !important;
+                border-radius: 50% !important;
+                width: 40% !important;
+                text-align: center !important;
+                height: 42% !important;
+                padding-left: 14%;
+                font-size: 18px;
+                margin-left: 1.9rem !important;
+                border: none;
+                background-color: #4dabf7;
+                color: #fff;
+            }
+            .text2-icon {
+                position: relative;
+                top: 0.3rem;
+            }
+            .text2-icon p {
+                position: relative;
+                top: 3rem;
+                display: block;
+                width: 7rem;
+            }
+            .icsize i {
+                transform: scale(2) !important;
+                border-radius: 50% !important;
+                width: 74% !important;
+                text-align: center !important;
+                height: 55% !important;
+                padding-top: 1rem;
+                font-size: 22px;
+                margin-left: 0.8rem;
+                border: none;
+                background-color: #4dabf7;
+                color: #fff;
+            }
+            .icsize {
+                position: relative;
+                left: -56.5% !important;
+            }
+            .lasticon--min i {
+                transform: scale(2.1) !important;
+                border-radius: 50% !important;
+                width: 77% !important;
+                height: 51% !important;
+                padding-top: 0.8rem;
+                padding-left: 0.9rem;
+                font-size: 22px;
+                margin-left: 0.8rem;
+                border: none;
+                background-color: #4dabf7;
+                color: #fff;
+            }
+            .lasticon--min {
+                position: relative;
+                left: -18.5rem !important;
+            }
+            .postbox {
+                padding-top: 7rem;
+            }
+            .columpot-img {
+                margin-top: -5rem;
+            }
+            .section-post {
+                height: 95rem;
+            }
+            .maxitem {
+                margin-top: 5rem;
+            }
+            .cv--information {
+                height: 45rem;
+            }
+            .boxlast-pot2 {
+                padding-left: 3rem;
+            }
+            .personal-cv {
+                height: 6rem;
+            }
+            .boxtem {
+                height: 52rem;
+            }
+            .final-column {
+                height: 49rem;
+            }
+            #minicon {
+                width: 8.9% !important;
+                height: 17%;
+                transform: scale(1.5);
+                border-radius: 50%;
+                background-color: #4dabf7;
+            }
+        }
+        
+        @media only screen and (max-width:462px) {
+            .lasticon--min {
+                position: relative;
+                left: -15.5rem;
+            }
+            .icsize {
+                position: relative;
+                left: -45%;
+            }
+            .section {
+                margin-top: -149%;
+            }
+        }
+        
+        @media only screen and (max-width:376px) {
+            .lasticon--min {
+                position: relative;
+                left: -19.5rem !important;
+            }
+            .icsize {
+                position: relative;
+                left: -61%;
+            }
+        }
+        
+        @media only screen and (max-width:361px) {
+            .lasticon--min {
+                position: relative;
+                left: -20.1rem;
+            }
+            .icsize {
+                position: relative;
+                left: -65%;
+            }
+            .section-post {
+                height: 101rem;
+            }
+            #colmin-box-1 {
+                height: 42rem;
+            }
+            .text-layout1 {
+                height: 74rem;
+            }
+            .section {
+                margin-top: -192% !important;
+            }
+            .flexbox {
+                margin-left: -11%;
+            }
+            .flexbox3 {
+                margin-left: -11%;
+            }
+            .flexbox4 {
+                margin-left: 10%;
+            }
+            .bormobie {
+                margin-left: -11%;
+            }
+        }
